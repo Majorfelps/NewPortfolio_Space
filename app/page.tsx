@@ -1,4 +1,4 @@
-import Hero from "../../portfolio_space/components/main/Hero"
+import Hero from "../components/main/Hero"
 
 
 export default function Home() {
