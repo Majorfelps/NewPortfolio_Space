@@ -2,19 +2,21 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-This project uses npm as the package manager (lockfile: `package-lock.json`).
+This project supports both npm and pnpm. By default the repository currently contains `package-lock.json`.
 
-First, install dependencies and run the development server (PowerShell):
+To use npm (default):
 
 ```powershell
 npm install
 npm run dev
 ```
 
-If you previously used pnpm and want to revert to pnpm, remove `package-lock.json` and run:
+To use pnpm instead (will create `pnpm-lock.yaml`):
 
 ```powershell
+del package-lock.json
 pnpm install
+pnpm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
