@@ -16,7 +16,7 @@ const Navbar = () => {
               className='cursor-pointer hover:animate-slowspin'            
             />
             <span className='font-bold ml-[10px] hiddne md:block text-gray-300'>
-              Goliath Corp.
+              Michael Cruz
             </span>
           </a>
           <div className='w-[500px] h-full flex flex-row items-center justify-between md:mr-20'>

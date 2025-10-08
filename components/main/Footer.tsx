@@ -60,7 +60,7 @@ const Footer = () => {
             </div>
 
             <div className="mb-[20px] text-[15px]">
-                &copy; Goliath Corp 2025 Inc. All rights reserved.
+                &copy; Michael Cruz 2025 Inc. All rights reserved.
             </div>
 
 
